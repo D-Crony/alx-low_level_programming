@@ -4,9 +4,9 @@
 /*
  * print_remaining_days - take a date and prints how many days left in the year, taking leap years into account
  * @month: months in number format
- * @day: year
+ * @day: day of month
  * @year: year
- * Return:void
+ * Return: void
  */
 
 void print_remaining_days(int month, int day, int year)

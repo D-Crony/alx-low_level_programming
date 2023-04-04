@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncpy - copy a strings
+ **_strncpy - copy a strings
  * using at most n bytes from src
  * @dest:imput value
  * @src: imput value

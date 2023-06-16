@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * Discreptive: main - Prints out a string to stdout.
+ * main - Program that print a line with functions
  * Return: 0 (success)
  */
  int main(void)

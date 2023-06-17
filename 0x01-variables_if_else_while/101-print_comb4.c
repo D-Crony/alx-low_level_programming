@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - print all possible combinations of three digit numbers
  * Return: Always 0 (success)
@@ -6,27 +7,34 @@
 
 int main(void)
 {
-	int n, m, l;
+	int n = '0';
+	int m = '0';
+	int l = '0';
 
-	for (n = 48; n < 58; n++)
+	while (n <= '7')
 	{
-		for (m = 49; m < 58; m++)
+		while (m <= '8')
 		{
-			for (l = 50; l < 58; l++)
+			while (l <= '9')
 			{
-				if (l > m && m > n)
+				if (n < m && m < l)
 				{
 					putchar(n);
 					putchar(m);
 					putchar(l);
-					for (n != 55 || != 56)
+					if (!(n == '7' && m == '8' && l == '9'))
 					{
 						putchar(',');
 						putchar(' ');
 					}
 				}
+				l++;
 			}
+			l = '0';
+			m++;
 		}
+		m = '0';
+		n++;
 	}
 	putchar('\n');
 	return (0);

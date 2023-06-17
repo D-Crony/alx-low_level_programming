@@ -1,9 +1,9 @@
-#include <stdio.h)>
-
+#include <stdio.h>
 /**
  * main - print all possible combinations of three digit numbers
  * Return: Always 0 (success)
  */
+
 int main(void)
 {
 	int n, m, l;
@@ -19,7 +19,7 @@ int main(void)
 					putchar(n);
 					putchar(m);
 					putchar(l);
-					if (n != 55 || = != 56)
+					for (n != 55 || != 56)
 					{
 						putchar(',');
 						putchar(' ');

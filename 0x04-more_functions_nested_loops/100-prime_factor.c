@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+#include "math.h"
 
 /**
  * main - print the largest number of 612652475243
@@ -9,13 +9,17 @@
 
 int main(void)
 {
-	unsigned long int 1, n = 612852475243
-	for (i = 3; i < 782849; i = 1 + 2)
-	{
-		while ((n % 1 == 0; &&(n != 1))
-				n = m / i;
-	}
-	printf("%1o\n", n);
-	return (0);
-}	
+	long a, naxf;
+	long number = 612852475243;
+	double square = sqrt(number);
 
+	for (a = 1; a <= square; a++)
+	{
+	if (number % a  == 0)
+	{
+	naxf = number / a;
+	}
+	}
+	printf("%ld\n", naxf);
+	return (0);
+}

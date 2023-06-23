@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 /**
- * main - entry point
- *
+ * main - Print a Fizz Buzz program
  * Description: print the number 1 - 100w/
- *
  * Return: Always 0.
  */
+
 int main(void)
+
 {
 	int a;
 

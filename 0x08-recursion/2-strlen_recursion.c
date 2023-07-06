@@ -2,17 +2,19 @@
 
 /**
  * _strlen_recursion - The length of the string to calculate
- * @a: String to count
+ * @s: String to be measured
  *
- * Return: Integer value
+ * Return: The length of the string
  */
-int _strlen_recursion(char *a)
+int _strlen_recursion(char *s)
 {
-	if (*a == '\0')
+	int longit = 0;
+
+	if (*s)
 	{
-		return (0);
+		longit++
+		longit += _strlen_recursion(s + 1)
 	}
 
-	a++;
-	return (_strlen_recursion(s) + 1);
+	return (longit)
 }

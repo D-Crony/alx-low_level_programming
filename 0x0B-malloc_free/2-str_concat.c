@@ -36,9 +36,12 @@ char *str_concat(char *s1, char *s2)
 
 	while (b < c)
 	{
-		if (b <= c)
+		if (b <= x)
+			s[b] = s1[b];
+
+		if (b >= x)
 		{
-			s[b] = s1[a];
+			s[b] = s2[a];
 			a++;
 		}
 
